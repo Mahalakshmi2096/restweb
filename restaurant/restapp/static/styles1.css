@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: bisque;
+    color: #140a0a;
+}
+
+header {
+    background-image: url("bcg.jpg");
+    color: #0b063d;
+    text-align: center;
+    padding: 70px;
+    font-family:'Times New Roman';
+    background-size: contain;
+    font-size: x-large;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #040c06;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: #ffffff;
+}
+
+#hero {
+    background-image: url("avout.png");
+    color: rgb(6, 15, 45);
+    padding: 100px 0;
+    text-align: center;
+    font-size: x-large;
+    background-size: cover;
+}
+
+#hero .btn {
+    background: #35424a;
+    color: #a70fe8;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#menu {
+    padding: 50px;
+    margin: 50px;
+    background: #0e0558;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.menu-item {
+    text-align: center;
+    margin: 15px;
+}
+
+.menu-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+section {
+    padding: 40px;
+    margin: 40px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    color: rgb(174, 12, 109);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
